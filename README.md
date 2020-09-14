@@ -38,17 +38,28 @@ Please use --help flag to explore more.
 
 ## Examples
 
-Take shoot with notification and save to path: `screenshoot --notify --action save --type static --path /path/to/save --name my_file_name`
+Take shoot with notification and save to path:
+
+`screenshoot --notify --action save --type static --path /path/to/save --name my_file_name`
 
 
-Same as above but select screen part: `screenshoot --notify --action save --type select --path /path/to/save --name my_file_name`
+Same as above but select screen part:
 
-Same as above but with 3 sec. delay: `screenshoot --delay 3 --notify --action save --type select --path /path/to/save --name my_file_name`
+`screenshoot --notify --action save --type select --path /path/to/save --name my_file_name`
 
 
-Select screen, upload to imgur and copy keep: `screenshoot --notify --action imgur --type select --keep` (imgur url be copied to cliboard and details will be logged in a file.)
+Same as above but with 3 sec. delay:
+
+`screenshoot --delay 3 --notify --action save --type select --path /path/to/save --name my_file_name`
+
+
+Select screen, upload to imgur and keep a copy:
+
+`screenshoot --notify --action imgur --type select --keep` (imgur url be copied to cliboard and details will be logged in a file.)
+
 
 *Path and filename will be default path (~/Pictures/Wallpaper)*
+
 
 Take, copy to clibboard and keep shoot to default path and do not notify: `screenshoot --action copy --type select --keep`
 

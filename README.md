@@ -64,5 +64,18 @@ Select screen, upload to imgur and keep a copy:
 Take, copy to clibboard and keep shoot to default path and do not notify: `screenshoot --action copy --type select --keep`
 
 
-### __TODO__
+### Bindings
 
+_Make a screenshot & copy to clipboard (of a selectable area via Shift+Print)_
+
+`bindsym $mod+Print exec ~/.config/sway/scripts/screenshoot --notify --action save --type static`
+
+`bindsym Shift+Print exec ~/.config/sway/scripts/screenshoot --notify --action save --type select`
+
+_Make a screenshot & save as png file_
+
+`bindsym $mod+Alt+Print exec ~/.config/sway/scripts/screenshoot --notify --action copy --type static`
+
+`bindsym $mod+Shift+Print exec ~/.config/sway/scripts/screenshoot --notify --action copy --type select`
+
+`bindsym $mod+Print+d exec ~/.config/sway/scripts/screenshoot --notify --action copy --type static`

@@ -8,10 +8,10 @@ Full feature screenshot tool for wayland compositor.
 ## Requiremnets
 
 1. Python 3.6 or higher
-2. grim for screenshot
-3. slurp for display geomety selection
-4. libnotify for notification
-5. wl-copy for clipboard
+2. [grim](https://archlinux.org/packages/community/x86_64/grim/) for screenshot
+3. [slurp](https://archlinux.org/packages/community/x86_64/slurp/) for display geomety selection
+4. [libnotify](https://archlinux.org/packages/extra/x86_64/libnotify/) for notification
+5. [wl-clipboard](https://archlinux.org/packages/community/x86_64/wl-clipboard/) for clipboard
 
 ## Features
 
